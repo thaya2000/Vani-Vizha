@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap");
+
+.timer-container {
+  height: 20vh;
+  width: 100vw;
+  font-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  z-index: 1;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: small;
+  color: white;
+  z-index: 1;
+  margin: 20px;
+}
+
+.timer-Design {
+  border: 1px solid #b4b0b0;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  z-index: 1000;
+  color: black;
+  background-color: aliceblue;
+}
+
+.timer-Design p {
+  font-size: 3em;
+  margin: 0px;
+}
+
+.timer-Design small {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 400px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .timer {
+    font-size: xx-small;
+  }
+}
