@@ -16,10 +16,6 @@ function App() {
         path: "/:index",
         element: <Home />,
       },
-      {
-        path: "/0",
-        element: <Home />,
-      },
     ],
     { basename: import.meta.env.BASE_URL }
   );
