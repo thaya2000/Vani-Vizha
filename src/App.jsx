@@ -1,16 +1,34 @@
 import React from "react";
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 function App() {
+
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/1",
+        element: <Home />,
+      },
+    ],
+    { basename: import.meta.env.BASE_URL }
+  );
+
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter basename="/Vani-Vizha">
         <Routes>
-          <Route path="/Navaratri/" element={<Home />} />
+          <Route exact path="/1" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <RouterProvider router={router} />
     </>
   );
 }
