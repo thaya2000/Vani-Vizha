@@ -12,6 +12,7 @@ export default function Text() {
     1: "John Doe",
     2: "Jane Smith",
     3: "DR. KUSHAN SUDHEERA",
+    4: "DR. KUSHAN SUDHEERA",
     guest3: "Bob Johnson",
   };
   return (
