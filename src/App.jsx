@@ -13,7 +13,11 @@ function App() {
         element: <Home />,
       },
       {
-        path: "/1",
+        path: "/:index",
+        element: <Home />,
+      },
+      {
+        path: "/0",
         element: <Home />,
       },
     ],

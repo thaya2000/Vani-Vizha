@@ -4,6 +4,7 @@ import Navaratri_text from "../assets/img/Navatri_text.png";
 import Navaratri_animation from "../assets/img/Navaratri_text_animation.png";
 import { useParams } from "react-router-dom";
 
+
 export default function Text() {
   const { index } = useParams();
 
