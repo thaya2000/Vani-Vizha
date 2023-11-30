@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&family=Quicksand:wght@300;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap");
 .text {
-  height: 60svh;
+  height: 70svh;
   margin-top: 1vh;
   width: 100vw;
   font-size: 100%;
@@ -13,7 +13,7 @@
 }
 
 .text p {
-  margin-top: 5vh;
+  margin-top: 6vh;
   margin-bottom: 0.5vh;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -27,7 +27,7 @@
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 0.5em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   color: #d7d7d7;
   font-family: "Poppins", sans-serif;
   font-style: normal;
