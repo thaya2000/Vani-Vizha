@@ -26,7 +26,6 @@
 }
 
 .overall-container {
-  height: 95vh;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  height: 100vh;
+  height: 100dvh;
 }

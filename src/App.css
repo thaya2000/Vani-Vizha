@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap");
 
 .endtext {
-  height: 5vh;
+  height: 5svh;
   width: 100vw;
   font-size: 100%;
   display: flex;
@@ -25,6 +25,3 @@
   z-index: 1;
 }
 
-.overall-container {
-  height: 95vh;
-}
