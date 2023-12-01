@@ -2,6 +2,7 @@
 
 .endtext {
   height: 5vh;
+  height: 5dvh;
   width: 100vw;
   font-size: 100%;
   display: flex;
@@ -24,4 +25,3 @@
   text-align: center;
   z-index: 1;
 }
-

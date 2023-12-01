@@ -2,6 +2,7 @@
 
 .timer-container {
   height: 25vh;
+  height: 25dvh;
   width: 100vw;
   font-size: 100%;
   display: flex;
